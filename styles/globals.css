@@ -2,10 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-background-color: #14181D;
+* {
+    margin: 0;
+
 
 }
+
+body {
+    font-size: 1em;
+    background-color: #14181D;
+    
+    color: #8C9CAC;
+    background-position: 0 0;
+    height: 100%;
+    line-height: 1;
+  
+    display: block;
+    text-align: left;
+  
+  }
 
 .hover-trigger .hover-target {
     display: none;
@@ -21,7 +36,8 @@ background-color: #14181D;
     background-color: #14181D;
 }
 
-.bg-offblack{
-
-
+.bg-trans {
+    background-color: transparent;
+    background: transparent;
 }
+

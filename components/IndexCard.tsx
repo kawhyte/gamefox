@@ -9,7 +9,7 @@ const Trending: React.FC<IGame> = ({ games, headerText, startCountAt }) => {
 				<motion.div className='grid grid-cols-2  sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5  grid-row-2 gap-2'>
 					{games.slice(0, 50).map((game, i) => (
 						<Link href={`/games/${game.id}`} key={game.id}>
-							<div className='flex flex-col hover-trigger'>
+							<div className='flex flex-col hover-trigger mb-6'>
 								<motion.div
 									key={game.id}
 									className=' shadow-lg relative rounded p-1 max-w-sm cursor-pointer '
@@ -47,7 +47,7 @@ const Trending: React.FC<IGame> = ({ games, headerText, startCountAt }) => {
 											alt={game.name}
 										/>
 
-										<p className='mt-3 text-gray-400'>{game.name}</p>
+										<p className='mt-5 text-center text-gray-400'>{game.name}</p>
 
 										<div className='flex flex-col items-start w-4 justify-start absolute rounded bg-opacity-0 group-hover:bg-opacity-60 h-full top-0 group-hover:opacity-100 transition '>
 											<button className='hover:scale-110 flex flex-row align-middle items-center transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition'>

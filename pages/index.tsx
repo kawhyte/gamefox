@@ -43,7 +43,7 @@ const Home = ({ trendingGames, bestOf2021, bestOf2020 }) => {
 	return (
 		<>
 			<Head>
-				<title>GameBox | Home</title>
+				<title>GameFox | Home</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 

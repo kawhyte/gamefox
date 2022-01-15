@@ -16,7 +16,7 @@ const nintendo: React.FC<IGameFull> = ({ games, headerText, subText }) => {
 	return (
 		<div>
 			<Head>
-				<title>GameBox | Nintendo</title>
+				<title>GameFox | Nintendo</title>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 
