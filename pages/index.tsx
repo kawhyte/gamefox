@@ -1,82 +1,94 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Hero from "../components/Hero";
+import { GetStaticProps } from "next";
+import { GamesoftheYear2020, TrendingGames } from "../data/gameIDs";
+import { getIndexPageGamesByID } from "../util/getGames";
 
-export default function Home() {
-  return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+import IndexTrendingGames from "../components/IndexTrendingGames";
+import JustAdded from "../components/JustAdded";
+import { convertDateToEpoch } from "../util/convertDate";
+//import { fromUnixTime, parse } from "date-fns";
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
+export const getStaticProps: GetStaticProps = getIndexPageGamesByID(
+	TrendingGames,
+	GamesoftheYear2020
+);
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.tsx
-          </code>
-        </p>
+const Home = ({ trendingGames, bestOf2021, bestOf2020 }) => {
+	let today = new Date();
+	let date = convertDateToEpoch(today.setMonth(today.getMonth() - 12));
 
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
+	//console.log("trendingGames " , trendingGames)
 
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
+	// let highestRatedGamesNow = trendingGames
+	// 	.filter((games) => games.total_rating > 85)
+	// 	.sort((a, b) => {
+	// 		return b.rating_count - a.rating_count;
+	// 	});
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
+		//console.log("highestRatedGamesNow " , highestRatedGamesNow)
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
-    </div>
-  )
-}
+	let recentlyAdded = trendingGames
+		.filter((games:any) => games.release_dates[games.release_dates.length -1].date > date)
+		.sort((a:any, b:any) => {
+			return (
+				b.release_dates[b.release_dates.length - 1].date.valueOf() -
+				a.release_dates[a.release_dates.length - 1].date.valueOf()
+			);
+		});
+	
+		//console.log("recentlyAdded " , recentlyAdded)
+
+	return (
+		<>
+			<Head>
+				<title>GameBox | Home</title>
+				<link rel='icon' href='/favicon.ico' />
+			</Head>
+
+			<Hero games={trendingGames} headerText={" "} />
+
+			 <div className='justify-center flex flex-col items-center my-4 mx-6'>
+				<div className=' mb-2  rounded-3xl  flex flex-col align-middle justify-center items-center text-center font-black  text-white tracking-wider  '>
+					<JustAdded
+						games={bestOf2021}
+						headerText={"BEST VIDEO GAMES OF 2021"}
+						subText={"Great games from 2021"}
+					/>
+				</div>
+			</div> 
+
+			{/*<div className='justify-start flex flex-col '>
+				<div className=' mb-4  flex flex-col justify-start  text-left font-black  text-textwhite tracking-wider  '>
+					<IndexTrendingGames
+						games={highestRatedGamesNow}
+						headerText={"Highest Rated Games Right Now"}
+						subText={"Highest Rated Games from the last 30 days"}
+					/>
+				</div>
+	</div>*/}
+			<div className='justify-start flex flex-col  container mx-auto my-28'>
+				<div className=' mb-4  flex flex-col justify-start  text-left font-black  text-white tracking-wider  '>
+					<IndexTrendingGames
+						games={recentlyAdded}
+						headerText={"Highest Rated Games Right Now"}
+						subText={"Popular Games You Should Play"}
+					/>
+				</div>
+			</div>
+
+			{/*<div className='justify-center flex flex-col items-center mb-24  '>
+				<div className=' mb-2  rounded-3xl  flex flex-col align-middle justify-center items-center text-center font-black  text-textwhite tracking-wider  '>
+					<IndexTrendingGames
+						games={bestOf2020}
+						headerText={"Top 12 BEST VIDEO GAMES OF 2020"}
+						subText={"Great games from 2020"}
+					/>
+				</div>
+</div>*/}
+		</>
+	);
+};
+
+export default Home;

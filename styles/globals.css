@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+background-color: #14181D;
+
+}
+
+.hover-trigger .hover-target {
+    display: none;
+}
+
+.hover-trigger:hover .hover-target {
+    display: block;
+
+}
+
+.bg-bgcolor {
+    color: #000;
+    background-color: #14181D;
+}
+
+.bg-offblack{
+
+
+}
