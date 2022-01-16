@@ -4,7 +4,7 @@ const PlatformList: React.FC <ITags> = ({ list, headerText, tagBGcolor }) => {
 
 	return (
 		<>
-			<div className='w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-6 mt-6'>
+			<div className='w-full md:w-6/12 lg:w-3/12 lg:mb-0 sm:my-6'>
 				<span className='flex flex-wrap md:flex-nowrap items-center mt-1 mb-2'>
 				<h3 className='text-base text-white md:text-left md:text-base'>{headerText}</h3>
 					{list.map((platform, i) => {

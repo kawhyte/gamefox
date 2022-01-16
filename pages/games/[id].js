@@ -49,8 +49,6 @@ const Details = ({ data }) => {
 
   let ratings = data[0].rating && data[0].rating.toFixed(0);
 
-  let circumference = ratings * 2 * 3.14;
-
   if (ratings >= 0 && ratings < 40) {
     img = '/ratingIcons/sad.png';
     bg = 'text-red-500';
@@ -115,7 +113,7 @@ const Details = ({ data }) => {
         <div className=" mx-auto z-10 max-w-screen-xl -mt-60 sm:-mt-32">
           <section className="pb-8 md:pb-20  ">
             <div className="container  mx-auto px-4">
-              <div className=" relative flex flex-col md:flex-row justify-center items-center  max-w-3xl   ">
+              <div className=" relative flex flex-col md:flex-row justify-center items-center  max-w-3xl">
                 <div className="w-5/12 ">
                   <Image
                     src={
@@ -136,12 +134,12 @@ const Details = ({ data }) => {
                   />
                 </div>
 
-                <div className="ml-12 flex flex-col w-7/12 ">
-                  <p className="text-white text-center md:text-left font-bold text-4xl ">
+                <div className="ml-12 flex flex-col sm:w-7/12 ">
+                  <p className="text-white text-center md:text-left font-bold text-4xl my-6 ">
                     {data[0].name}
                   </p>
 
-                  <div className=" bg-blue-200 ">
+                 
                     <div className=" flex flex-col justify-center  ">
                       <div className="flex items-center flex-wrap max-w-md   ">
                         <div className="flex items-center text-3xl  py-3   rounded-2xl   justify-between  overflow-hidden  text-white  ">
@@ -190,7 +188,7 @@ const Details = ({ data }) => {
                   {/*<time className='mt-4   text-base text-center md:text-left md:text-base'>
 											Released on {data[0].release_dates[0].date}
 									</time>*/}
-                </div>
+                
               </div>
             </div>
 
