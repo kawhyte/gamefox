@@ -41,3 +41,6 @@ body {
     background: transparent;
 }
 
+.filter-green{
+    filter: brightness(0) saturate(100%) invert(99%) sepia(5%) saturate(159%) hue-rotate(181deg) brightness(116%) contrast(100%);
+}

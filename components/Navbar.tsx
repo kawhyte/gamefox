@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+
 
 import { animate, motion } from "framer-motion";
 
@@ -36,20 +38,19 @@ export default function Navbar(props) {
 						</Link>
 
 						<button
-							className='cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
+							className='cursor-pointer text-xl leading-none text-white px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none'
 							type='button'
 							onClick={() => setNavbarOpen(!navbarOpen)}>
-							<i
-								className={
-									(props.transparent ? "text-textwhite" : "text-gray-800") +
-									" fas fa-bars"
-								}></i>
+						
+								<MenuIcon className='block h-6 w-6' aria-hidden='true' />
+
+
 						</button>
 					</div>
 
 					<div
 						className={
-							"lg:flex flex-grow items-center bg-white pl-10 lg:bg-transparent lg:shadow-none" +
+							"lg:flex flex-grow items-center bg-whit pl-10 lg:bg-transparent lg:shadow-none" +
 							(navbarOpen ? " block rounded shadow-lg bg-gray-900" : " hidden")
 						}
 						id='example-navbar-warning'>
@@ -78,18 +79,18 @@ export default function Navbar(props) {
 							</Link>*/}
 						
 							<Link href='/trending-video-games '>
-								<li className='flex items-center pr-6 '>
+								<li className='flex items-center pr-6 text-white '>
 									<a
 										className={
 											(props.transparent
 												? "lg:text-gray-100  lg:hover:text-yellow-300  text-gray-100"
 												: "text-gray-100  hover:text-yellow-600") +
-											" px-3 py-4 cursor-pointer lg:py-2 flex items-center text-sm uppercase font-bold"
+											" md:px-3 py-4 text-white cursor-pointer lg:py-2 flex items-center text-sm uppercase font-bold"
 										}>
 										<i
 											className={
 												(props.transparent
-													? "lg:text-buttonYellow  text-buttonYellow"
+													? "lg:text-yellow-500  text-yellow-500"
 													: "text-gray-500") +
 												" fas fa-crown text-base leading-lg mr-2"
 											}
@@ -103,7 +104,7 @@ export default function Navbar(props) {
 							<Link href='/playstation '>
 								<li className='flex items-center pr-6 '>
 									<div>
-									<Image  width={30} height={30} src='/playstation.png' /></div>
+									<Image className=" filter-green" width={32} height={32} src='/ps.svg' /></div>
 									<a
 										className={
 											(props.transparent
@@ -118,7 +119,7 @@ export default function Navbar(props) {
 							<Link href='/nintendo '>
 								<li className='flex items-center pr-6 '>
 									<div>
-									<Image  width={42} height={40} src='/console.png' /></div>
+									<Image className=" filter-green" width={32} height={32} src='/nintendo.svg' /></div>
 									<a
 										className={
 											(props.transparent
@@ -133,7 +134,7 @@ export default function Navbar(props) {
 							<Link href='/xbox '>
 								<li className='flex items-center pr-6 '>
 									<div>
-									<Image  width={30} height={30} src='/game-console.png' /></div>
+									<Image className=" filter-green"  width={30} height={30} src='/box.svg' /></div>
 									<a
 										className={
 											(props.transparent
@@ -156,7 +157,7 @@ export default function Navbar(props) {
 										(props.transparent
 											? "lg:text-gray-100 lg:hover:text-gray-300  text-gray-100"
 											: "text-gray-500  hover:text-gray-600") +
-										" px-3 py-4 cursor-pointer lg:py-2 flex items-center text-sm uppercase font-bold bg-grey-900"
+										" md:px-3 py-4 cursor-pointer lg:py-2 flex items-center text-sm uppercase font-bold bg-grey-900"
 									}>
 									Made by Kenny
 								</a>
