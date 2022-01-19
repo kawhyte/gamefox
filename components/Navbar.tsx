@@ -99,7 +99,6 @@ export default function Navbar(props) {
 									</a>
 								</li>
 								</Link>
-							
 			
 							<Link href='/playstation '>
 								<li className='flex items-center pr-6 '>
