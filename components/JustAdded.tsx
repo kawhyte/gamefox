@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Categories from "./Categories";
+
 import SectionHeaderText from "./SectionHeaderText";
 import HighestRatedCard from "./HighestRatedCard";
 import { getGames } from "../util/getGames";
@@ -9,7 +9,7 @@ import { GetStaticProps} from 'next'
 
 
 
-const nintendo: React.FC<IGameFull>= ({ games, headerText}) => {
+const nintendo: React.FC<IGameFull>= ({ games, headerText =""}) => {
 
     //console.log("games ", games)
 	const sortedGames = games
