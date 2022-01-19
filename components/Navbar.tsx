@@ -95,7 +95,7 @@ export default function Navbar(props) {
 												" fas fa-crown text-base leading-lg mr-2"
 											}
 										/>{" "}
-										A Decade of Games (2010-2021)
+										Best Games (2010-2021)
 									</a>
 								</li>
 								</Link>
@@ -104,7 +104,7 @@ export default function Navbar(props) {
 							<Link href='/playstation '>
 								<li className='flex items-center pr-6 '>
 									<div>
-									<Image className=" filter-green" width={32} height={32} src='/ps.svg' /></div>
+									<Image  width={32} height={32} src='/ps.svg' /></div>
 									<a
 										className={
 											(props.transparent
@@ -119,7 +119,7 @@ export default function Navbar(props) {
 							<Link href='/nintendo '>
 								<li className='flex items-center pr-6 '>
 									<div>
-									<Image className=" filter-green" width={32} height={32} src='/nintendo.svg' /></div>
+									<Image  width={32} height={32} src='/nintendo.svg' /></div>
 									<a
 										className={
 											(props.transparent
@@ -134,7 +134,7 @@ export default function Navbar(props) {
 							<Link href='/xbox '>
 								<li className='flex items-center pr-6 '>
 									<div>
-									<Image className=" filter-green"  width={30} height={30} src='/box.svg' /></div>
+									<Image   width={30} height={30} src='/box.svg' /></div>
 									<a
 										className={
 											(props.transparent
