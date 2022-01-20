@@ -51,8 +51,8 @@ const Hero: React.FC<IGameFull> = ({ games }) => {
 					</p>
 					<div className='flex justify-center'>
 						<div className='flex align-middle items-center '>
-							<Link href='/video-game-concierge'>
-								<button className='uppercase py-2 px-4 mx-1 text-base sm:text-base tracking-wide sm:px-8 sm:py-3 rounded bg-indigo-500 hover:bg-indigo-600 font-semibold text-white  shadow-sm hover:shadow-lg'>
+							<Link href='/game-of-the-decade'>
+								<button className='uppercase cursor-not-allowed py-2 px-4 mx-1 text-base sm:text-base tracking-wide sm:px-8 sm:py-3 rounded bg-indigo-500 hover:bg-indigo-600 font-semibold text-white  shadow-sm hover:shadow-lg'>
 									GET STARTED — IT‘S FREE!
 								</button>
 							</Link>

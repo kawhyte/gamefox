@@ -13,7 +13,7 @@ const HighestRatedCard: React.FC<IGameFull> = ({ games, headerText, startCountAt
 		<div className=' container flex  flex-col items-center  justify-center'>
 			{games.slice(0, 3).map((game, i) => (
 				<div key={i}>
-					<div className='flex flex-col justify-center bg-bgcolor my-12 rounded-xl lg:shadow-none overflow-hidden min-w-min max-w-2xl md:max-w-xl lg:max-w-5xl  '>
+					<div className='flex flex-col justify-center my-12 rounded-xl lg:shadow-none overflow-hidden min-w-min max-w-2xl md:max-w-xl lg:max-w-5xl  '>
 				
 						{/*<div className='hidden  lg:block'>
 							<ReactPlayer
@@ -65,14 +65,14 @@ const HighestRatedCard: React.FC<IGameFull> = ({ games, headerText, startCountAt
 								<p className='pt-3 top-0 left-0 z-20 ml-0 mr-3  '>
 									<span
 										className={
-											"text-3xl font-semibold py-1 px-5 rounded text-gray-800 align-middle bg-textwhite  "
+											"text-3xl font-semibold py-1 px-5 rounded text-gray-300 align-middle bg-textwhite  "
 										}>
 										{i + 1}
 									</span>
 								</p>
 
 								<Link href={`/games/${game.id}`}>
-									<p className='text-textwhite hover:text-blue-700 cursor-pointer  py-2 pr-8  text-3xl  mt-0 smallheadings'>
+									<p className='text-white hover:text-blue-700 cursor-pointer  py-2 pr-8  text-3xl  mt-0 smallheadings'>
 										{game.name}
 									</p>
 								</Link>
@@ -97,7 +97,7 @@ const HighestRatedCard: React.FC<IGameFull> = ({ games, headerText, startCountAt
 								Rating {game.total_rating}%
 							</p>
 
-							<p className='text-textgray py-2 lg:mr-32 text-base font-medium mt-0 pr-8 '>
+							<p className='text-gray-300 py-2 lg:mr-32 text-base font-medium mt-0 pr-8 '>
 								{game.summary}
 							</p>
 						</div>

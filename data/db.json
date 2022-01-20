@@ -1,0 +1,590 @@
+{
+  "games": [
+    {
+      "id": 70,
+      "aggregated_rating": 92,
+      "aggregated_rating_count": 1,
+      "category": 0,
+      "cover": 71,
+      "created_at": 1297900800,
+      "external_games": [
+        8545,
+        78221,
+        154955,
+        1193716
+      ],
+      "first_release_date": 825984000,
+      "follows": 2,
+      "game_modes": [
+        1
+      ],
+      "genres": [
+        5,
+        13,
+        15
+      ],
+      "involved_companies": [
+        709
+      ],
+      "keywords": [
+        453,
+        970,
+        1025,
+        1669,
+        3782,
+        6351
+      ],
+      "name": "Terra Nova: Strike Force Centauri",
+      "platforms": [
+        13
+      ],
+      "player_perspectives": [
+        1
+      ],
+      "rating": 70,
+      "rating_count": 2,
+      "release_dates": [
+        544
+      ],
+      "screenshots": [
+        {
+          "id": 84914,
+          "game": 70,
+          "height": 800,
+          "image_id": "yff7am9tc0kkseudkfd7",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/yff7am9tc0kkseudkfd7.jpg",
+          "width": 1280,
+          "checksum": "0b502929-abf2-321a-0367-730f0612b0e2"
+        },
+        {
+          "id": 84915,
+          "game": 70,
+          "height": 800,
+          "image_id": "pep9actkryfjgxqdsqcj",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/pep9actkryfjgxqdsqcj.jpg",
+          "width": 1280,
+          "checksum": "4cd22aea-2873-5c57-9a8a-753946dc2d6f"
+        },
+        {
+          "id": 84916,
+          "game": 70,
+          "height": 960,
+          "image_id": "hokv2mdsvkyvzpu8ovkx",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/hokv2mdsvkyvzpu8ovkx.jpg",
+          "width": 1280,
+          "checksum": "c93a921d-1269-601f-1f5a-8353e1278d44"
+        },
+        {
+          "id": 84917,
+          "game": 70,
+          "height": 800,
+          "image_id": "qrt9ufebxub7cl2vbhyq",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/qrt9ufebxub7cl2vbhyq.jpg",
+          "width": 1280,
+          "checksum": "2114fc89-545d-7c3d-072a-6d4eae7fdc2a"
+        },
+        {
+          "id": 84918,
+          "game": 70,
+          "height": 800,
+          "image_id": "cis8soq9fayrtjyqafal",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/cis8soq9fayrtjyqafal.jpg",
+          "width": 1280,
+          "checksum": "45815a56-557c-ffc4-cb3e-59da8aaacf88"
+        }
+      ],
+      "similar_games": [
+        13200,
+        16806,
+        17130,
+        24620,
+        25311,
+        34823,
+        55038,
+        68286,
+        68287
+      ],
+      "slug": "terra-nova-strike-force-centauri",
+      "summary": "Lead an elite fighting team battling for freedom from the sinister forces of the Earth Hegemony. Engage in combat on the bloody battlefields of four unique worlds. Encased in your Powered Battle Armour (PBA) you are an unstoppable fighting force.",
+      "tags": [
+        1,
+        18,
+        268435461,
+        268435469,
+        268435471,
+        536871365,
+        536871882,
+        536871937,
+        536872581,
+        536874694,
+        536877263
+      ],
+      "themes": [
+        1,
+        18
+      ],
+      "total_rating": 81,
+      "total_rating_count": 3,
+      "updated_at": 1571270400,
+      "url": "https://www.igdb.com/games/terra-nova-strike-force-centauri",
+      "videos": [
+        506
+      ],
+      "websites": [
+        23691,
+        23692,
+        119708
+      ],
+      "checksum": "987b8ba1-56a2-09eb-cf31-cf4dca3eab46"
+    },
+    {
+      "id": 40104,
+      "category": 0,
+      "created_at": 1498435200,
+      "external_games": [
+        20127,
+        1988884
+      ],
+      "first_release_date": 536457600,
+      "genres": [
+        5
+      ],
+      "name": "Dogou Souken",
+      "platforms": [
+        52
+      ],
+      "release_dates": [
+        91007
+      ],
+      "similar_games": [
+        12364,
+        27270,
+        43367,
+        103281,
+        103292,
+        103298,
+        103301,
+        105049,
+        106805
+      ],
+      "slug": "dogou-souken",
+      "summary": "An overhead-view shoot'em up game.",
+      "tags": [
+        268435461
+      ],
+      "updated_at": 1604620800,
+      "url": "https://www.igdb.com/games/dogou-souken",
+      "checksum": "5e7446ff-58d9-e744-f0d3-5e10241304c1"
+    },
+    {
+      "id": 51663,
+      "category": 0,
+      "created_at": 1500595200,
+      "external_games": [
+        74744,
+        123111,
+        1896735
+      ],
+      "name": "The Firemen 2: Pete & Danny",
+      "slug": "the-firemen-2-pete-and-danny",
+      "updated_at": 1598400000,
+      "url": "https://www.igdb.com/games/the-firemen-2-pete-and-danny",
+      "checksum": "e70b1fc2-8341-14f9-adc8-8cb1ba60b913"
+    },
+    {
+      "id": 20950,
+      "aggregated_rating": 64.75,
+      "aggregated_rating_count": 4,
+      "alternative_names": [
+        24032
+      ],
+      "category": 0,
+      "collection": 2282,
+      "cover": 84491,
+      "created_at": 1469142473,
+      "external_games": [
+        77472,
+        210660,
+        400135,
+        1237178,
+        1569699
+      ],
+      "first_release_date": 1431475200,
+      "follows": 4,
+      "game_modes": [
+        1
+      ],
+      "genres": [
+        8,
+        9,
+        31,
+        32
+      ],
+      "involved_companies": [
+        103768
+      ],
+      "keywords": [
+        1493,
+        1697,
+        4527,
+        17268
+      ],
+      "name": "Lifeless Planet: Premier Edition",
+      "platforms": [
+        3,
+        6,
+        14,
+        49,
+        130
+      ],
+      "player_perspectives": [
+        2
+      ],
+      "rating": 57.1345821086478,
+      "rating_count": 11,
+      "release_dates": [
+        136644,
+        166425,
+        192794,
+        192795,
+        192796
+      ],
+      "screenshots": [
+        {
+          "id": 28446,
+          "game": 20950,
+          "height": 1080,
+          "image_id": "girpmto3zmzwuzm4wtsg",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/girpmto3zmzwuzm4wtsg.jpg",
+          "width": 1920,
+          "checksum": "ab8bd978-0b4f-3d76-129c-fc242a331bff"
+        },
+        {
+          "id": 392388,
+          "alpha_channel": false,
+          "animated": false,
+          "game": 20950,
+          "height": 399,
+          "image_id": "sc8ero",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8ero.jpg",
+          "width": 710,
+          "checksum": "ab13c34a-041b-422b-c08a-31c8772460a7"
+        },
+        {
+          "id": 392389,
+          "alpha_channel": false,
+          "animated": false,
+          "game": 20950,
+          "height": 399,
+          "image_id": "sc8erp",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc8erp.jpg",
+          "width": 710,
+          "checksum": "ca3de12f-de67-f9c5-c8ac-2abf1f0c60eb"
+        }
+      ],
+      "similar_games": [
+        26223,
+        27266,
+        28070,
+        51528,
+        55190,
+        77529,
+        106992,
+        110503,
+        116681
+      ],
+      "slug": "lifeless-planet-premier-edition",
+      "summary": "While seeking life on a distant planet, an astronaut discovers an abandoned Russian town. He suspects his mission is a hoax until a mysterious young woman saves him from a strange and deadly phenomenon... Lifeless Planet is a third-person action-adventure that features an old-school sci-fi story and spectacular environments in the spirit of classic action-adventures.\n\nAfter a hard landing on the planet, the astronaut discovers the planet that was reported to be rich with life is instead a barren wasteland. When he goes searching for his crew, he makes a more startling discovery: evidence that humans have already been to this planet years ago! When he comes upon a deserted Soviet-era Russian town, he struggles to make sense of his mission. Did his light-speed travel to the planet send him back in time? Or is this all some strange Cold War hoax?\n\nAlong the way, the astronaut meets a Russian woman, Aelita, who is somehow able to survive the hostile atmosphere of the planet. Through an unusual natural phenomenon, her skin causes the soil to glow green under her feet. The player must use these glowing tracks as a guide across the planet past treacherous and deadly threats. Is she leading him to safety... or an untimely death?\n\nLifeless Planet was inspired by Cold War era science fiction stories, posing questions about humankind's desire for space travel. What if you journeyed across the galaxy to another planet, only to find humans had already been there? What kind of person would sign up for a one-way mission, leaving behind planet Earth and everyone they've ever known and love... to go in search of an Earth-like planet?\n\nEquipped with a limited-use jet-pack and a mobile robotic arm, the player must use wits and skill to solve puzzles, unravel the mystery, and survive the Lifeless Planet!\n\nKey Features:\n\n-Explore 20 unique and atmospheric environments on a vast and treacherous planet.\n-Follow a mysterious young woman as she guides you past dangerous terrain and deadly life-forms.\n-Investigate the startling discovery of an abandoned Russian town.\n-Experience an exciting and intriguing story through rich graphics and cinematic cut-scenes.",
+      "tags": [
+        18,
+        43,
+        268435464,
+        268435465,
+        268435487,
+        268435488,
+        536872405,
+        536872609,
+        536875439,
+        536888180
+      ],
+      "themes": [
+        18,
+        43
+      ],
+      "total_rating": 60.9422910543239,
+      "total_rating_count": 15,
+      "updated_at": 1612336031,
+      "url": "https://www.igdb.com/games/lifeless-planet-premier-edition",
+      "version_parent": 8433,
+      "version_title": "Premier Edition",
+      "websites": [
+        119053,
+        146870
+      ],
+      "checksum": "9f424e5e-af5d-ce7c-e5f8-f76255df6c2c"
+    },
+    {
+      "id": 68841,
+      "category": 0,
+      "cover": 97021,
+      "created_at": 1506470400,
+      "external_games": [
+        185421,
+        186839,
+        1905789
+      ],
+      "first_release_date": 1506988800,
+      "game_modes": [
+        2
+      ],
+      "genres": [
+        15,
+        16
+      ],
+      "keywords": [
+        970,
+        3171
+      ],
+      "name": "Captivus",
+      "platforms": [
+        6
+      ],
+      "release_dates": [
+        114619
+      ],
+      "screenshots": [
+        {
+          "id": 126622,
+          "game": 68841,
+          "height": 1080,
+          "image_id": "ci1qluvmxmjthtyvx3c6",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ci1qluvmxmjthtyvx3c6.jpg",
+          "width": 1920,
+          "checksum": "e1d8ad15-c269-41be-9798-ec9cb824353b"
+        },
+        {
+          "id": 126623,
+          "game": 68841,
+          "height": 1080,
+          "image_id": "onfy74y7jywyzl9thzv9",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/onfy74y7jywyzl9thzv9.jpg",
+          "width": 1920,
+          "checksum": "cabef341-32ce-335c-b449-dbf017159a89"
+        },
+        {
+          "id": 126624,
+          "game": 68841,
+          "height": 1080,
+          "image_id": "sdk7iirmrkc5xzaciz92",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/sdk7iirmrkc5xzaciz92.jpg",
+          "width": 1920,
+          "checksum": "6c64deb4-508b-1662-910c-90116e051777"
+        },
+        {
+          "id": 126625,
+          "game": 68841,
+          "height": 1080,
+          "image_id": "z9q9kyuudmv3ttby7cqy",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/z9q9kyuudmv3ttby7cqy.jpg",
+          "width": 1920,
+          "checksum": "c79474c8-14da-86f4-94d8-44776de72c3e"
+        },
+        {
+          "id": 126626,
+          "game": 68841,
+          "height": 1080,
+          "image_id": "kjb7vam7rokgff3cbakl",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/kjb7vam7rokgff3cbakl.jpg",
+          "width": 1920,
+          "checksum": "25797ab5-ec10-7f8b-df16-0f30c0f2fc57"
+        }
+      ],
+      "similar_games": [
+        11666,
+        13200,
+        13660,
+        16806,
+        17130,
+        24620,
+        32510,
+        34823,
+        102057
+      ],
+      "slug": "captivus",
+      "status": 4,
+      "summary": "Join the movement! Build a deck, equip your ship, and take on others in intense 1v1 card battles!",
+      "tags": [
+        18,
+        268435471,
+        268435472,
+        536871882,
+        536874083
+      ],
+      "themes": [
+        18
+      ],
+      "updated_at": 1598400000,
+      "url": "https://www.igdb.com/games/captivus",
+      "websites": [
+        58090,
+        58091
+      ],
+      "checksum": "6bf91ba1-b87f-b82c-8da6-e6259410c339"
+    },
+    {
+      "id": 33284,
+      "category": 0,
+      "created_at": 1495670400,
+      "external_games": [
+        5560,
+        1947044
+      ],
+      "first_release_date": 1457740800,
+      "game_modes": [
+        1
+      ],
+      "genres": [
+        32
+      ],
+      "name": "One way to exit",
+      "platforms": [
+        6
+      ],
+      "release_dates": [
+        77755
+      ],
+      "screenshots": [
+        {
+          "id": 58492,
+          "game": 33284,
+          "height": 720,
+          "image_id": "swa3xn3bexghpc3ffmcz",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/swa3xn3bexghpc3ffmcz.jpg",
+          "width": 1280,
+          "checksum": "2e9a5eab-1a88-46f3-96ed-31b9d762bea7"
+        },
+        {
+          "id": 58493,
+          "game": 33284,
+          "height": 720,
+          "image_id": "zdlnuq0zls2mtfk06pjf",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/zdlnuq0zls2mtfk06pjf.jpg",
+          "width": 1280,
+          "checksum": "086ad665-897d-c130-6eed-b398e7b2c233"
+        },
+        {
+          "id": 58494,
+          "game": 33284,
+          "height": 720,
+          "image_id": "gpkeqan21zroszd2nvsl",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/gpkeqan21zroszd2nvsl.jpg",
+          "width": 1280,
+          "checksum": "7994f8f8-e3c4-b128-947f-c7d1862a1473"
+        },
+        {
+          "id": 58495,
+          "game": 33284,
+          "height": 720,
+          "image_id": "behvwwk3nlhfvlhcfcm3",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/behvwwk3nlhfvlhcfcm3.jpg",
+          "width": 1280,
+          "checksum": "36335600-c166-654f-0387-91e8392132fd"
+        },
+        {
+          "id": 58496,
+          "game": 33284,
+          "height": 720,
+          "image_id": "ffow63l4ywfkyd0gmsez",
+          "url": "//images.igdb.com/igdb/image/upload/t_thumb/ffow63l4ywfkyd0gmsez.jpg",
+          "width": 1280,
+          "checksum": "44533f1a-44a7-3484-e2cf-ec3193561600"
+        }
+      ],
+      "similar_games": [
+        32902,
+        37419,
+        40524,
+        43367,
+        105233,
+        111130,
+        113895,
+        119121,
+        119493
+      ],
+      "slug": "one-way-to-exit",
+      "summary": "Move forward or backward in search of an exit, but remember, if you started moving you can not stop, and in any case, do not touch the walls, otherwise you have to start all over again.",
+      "tags": [
+        1,
+        268435488
+      ],
+      "themes": [
+        1
+      ],
+      "updated_at": 1604620800,
+      "url": "https://www.igdb.com/games/one-way-to-exit",
+      "checksum": "334d534d-8f5b-3cf8-90b4-240e6daa97fc"
+    },
+    {
+      "id": 104748,
+      "category": 0,
+      "created_at": 1530489600,
+      "external_games": [
+        1155919,
+        1972586
+      ],
+      "name": "Space station - build your own ISS",
+      "slug": "space-station-build-your-own-iss",
+      "updated_at": 1604620800,
+      "url": "https://www.igdb.com/games/space-station-build-your-own-iss",
+      "checksum": "d49fe10f-a810-bb6a-3946-3c0b83f7fe44"
+    },
+    {
+      "id": 85450,
+      "category": 0,
+      "created_at": 1517356800,
+      "external_games": [
+        221231,
+        1748471,
+        1991656
+      ],
+      "involved_companies": [
+        85230
+      ],
+      "name": "Transformers Prime: The Game",
+      "slug": "transformers-prime-the-game",
+      "updated_at": 1604620800,
+      "url": "https://www.igdb.com/games/transformers-prime-the-game",
+      "checksum": "d27c77be-e83a-23fe-6b50-1eb1aa034485"
+    },
+    {
+      "id": 53297,
+      "category": 0,
+      "created_at": 1501545600,
+      "external_games": [
+        86600
+      ],
+      "name": "Lords of Xulima: The Talisman of Golot Edition",
+      "slug": "lords-of-xulima-the-talisman-of-golot-edition",
+      "updated_at": 1602201600,
+      "url": "https://www.igdb.com/games/lords-of-xulima-the-talisman-of-golot-edition",
+      "version_parent": 9191,
+      "version_title": "The Talisman of Golot Edition",
+      "checksum": "0fff385a-3eb2-8a6d-ea81-64b900119e74"
+    },
+    {
+      "id": 89616,
+      "category": 0,
+      "created_at": 1519948800,
+      "external_games": [
+        269608,
+        1949905
+      ],
+      "name": "Bubble Whirl Shooter",
+      "slug": "bubble-whirl-shooter",
+      "updated_at": 1604620800,
+      "url": "https://www.igdb.com/games/bubble-whirl-shooter",
+      "checksum": "90910051-5a45-0ef0-6082-40d391b48d79"
+    }
+    
+  ]
+}
