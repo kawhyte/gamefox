@@ -30,9 +30,10 @@ const GOTY = ({ games }) => {
 
 			<SectionHero headerText={"Best Games of the Decade"} paragraphText = {"Best Video Games (2010 - 2020) "} games={games} bgColor="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 "/>
 			<Categories />
+			<section className="flex flex-col justify-center mx-auto container">
 			{gameObj.map((item, i) => (
 				<GOTYList games={sortedGames} gameDetails={item} key={i} />
-			))}
+			))}</section>
 		</motion.div>
 	);
 };
